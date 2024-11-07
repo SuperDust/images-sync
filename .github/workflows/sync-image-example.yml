@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/keking/kkfileview:4.1.0 docker://crpi-5jdlj98whc22z6f9.cn-hangzhou.personal.cr.aliyuncs.com/dustwork/kkfileview:4.1.0
+        skopeo copy docker://docker.io/xubiaolin/zerotier-planet:latest docker://crpi-5jdlj98whc22z6f9.cn-hangzhou.personal.cr.aliyuncs.com/dustwork/zerotier-planet:latest
