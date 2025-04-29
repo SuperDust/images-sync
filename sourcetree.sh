@@ -3,4 +3,4 @@ SHA=$0
 FILE=$1
 REPO=$2
 local=$3
-git show [$SHA]:$FILE > local/path/to/save
+git show [$SHA]:$FILE > $local
